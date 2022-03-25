@@ -1,0 +1,73 @@
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+header,
+h1,
+h2,
+main,
+main h1,
+main h2,
+ul,
+p,
+footer {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+header {
+  background-image: url(/images/hero.jpg);
+  height: 300px;
+}
+
+header h1 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 16px 0 0 16px;
+  text-shadow: 2px 2px 5px #999;
+}
+
+header h2 {
+  color: #4d4d4d;
+  font-size: 24px;
+  font-weight: 200;
+  padding-left: 16px;
+}
+
+main h1 {
+  color: #a9289d;
+  font-weight: 600;
+  margin-top: 16px;
+  padding-left: 16px;
+}
+
+main h2 {
+  color: #da33ca;
+  font-weight: 400;
+  margin: 24px 0 8px 0;
+  padding-left: 16px;
+}
+.fa-li {
+  margin: 5px 0 0 16px;
+  color: #ed99e5;
+}
+li {
+  line-height: 25px;
+  padding-left: 16px;
+}
+
+p {
+  color: #180616;
+  padding-left: 16px;
+}
+
+footer {
+  background-color: #fabaf4;
+  text-align: center;
+  margin-top: 16px;
+}
+
+footer p {
+  padding: 16px;
+}

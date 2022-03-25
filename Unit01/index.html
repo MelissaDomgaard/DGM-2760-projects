@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 Joe's Bed and Breakfast</title>
+
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/e0e60bd5c2.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header>
+        <h1 id="company"></h1>
+        <h2 id="slogan"></h2>
+    </header>
+
+    <main>
+        <h1>Welcome to Molly's</h1>
+        <h2>What I Learned</h2>
+        <ul class="objectives fa-ul">
+
+            
+            <li><span class="fa-li"><i class="fa-solid fa-egg"></i></span>Install, configure and use Visual Studio Code (VS Code) for web development.</li>
+            <li><span class="fa-li"><i class="fa-solid fa-egg"></i></span>Create a modern HTML page with linked CSS and JavaScript files.</li>
+            <li><span class="fa-li"><i class="fa-solid fa-egg"></i></span>Create a proper header with a background image.</li>
+            <li><span class="fa-li"><i class="fa-solid fa-egg"></i></span>Dynamically alter the page data shown at load time by inserting data into the page using JavaScript.</li>
+            <li><span class="fa-li"><i class="fa-solid fa-egg"></i></span>Use the built in prompt method to obtain user input.</li>
+            <li><span class="fa-li"><i class="fa-solid fa-egg"></i></span>Create web pages that are pushed to GitHub and deployed using Netlify.
+            </li>
+        </ul>
+        <!-- <h2>Today is <span id="date"></span></h2> -->
+        <!-- Trying to connect it with main.js but format is not showing properly -->
+
+        <h2>Today is
+            <script>
+                let thedate = new Date()
+                document.write(thedate.toLocaleDateString())
+            </script>
+        </h2>
+
+        <p id="greeting"></p>
+
+    </main>
+
+    <footer>
+        Assignment for DGM-2760 by Melissa Domgaard
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
