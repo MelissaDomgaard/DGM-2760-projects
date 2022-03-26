@@ -1,0 +1,84 @@
+body {font-family: 'Montserrat', sans-serif;}
+  
+  header,
+  h1,
+  h2,
+  main,
+  main h1,
+  main h2,
+  ul,
+  p,
+  footer {
+    margin: 0 auto;
+    max-width: 960px;
+  }
+  
+  header {
+    background-image: url(/images/hero.jpeg);
+    height: 300px;
+  }
+  
+  header h1 {
+    color: #CE77AE;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 64px;
+    padding: 72px 0 0 16px;
+    text-shadow: 2px 2px 5px #000;
+  }
+  
+  header h2 {
+    color: #CE77AE;
+    font-size: 40px;
+    padding-left: 16px;
+    text-shadow: 1px 1px 1px #000;
+  }
+  
+  main h1 {
+    color: #aece77;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 16px;
+    padding-left: 16px;
+  }
+  
+  main h2 {
+    color: #aece77;
+    margin: 24px 0 8px 0;
+    padding-left: 16px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .fa-li {
+    margin: 5px 0 0 16px;
+    color: #77AECE;
+  }
+  li {
+    line-height: 28px;
+    padding-left: 16px;
+    font-size: 16px;
+  }
+  
+  main h3 {
+    color: #77AECE;
+    margin: 24px 0 8px 0;
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  p {
+    color: #180616;
+    padding-left: 16px;
+    font-size: 16px;
+    
+  }
+  
+  footer {
+    background-color: #aece77;
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  footer p {
+    padding: 16px;
+  }

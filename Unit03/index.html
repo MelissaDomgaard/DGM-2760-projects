@@ -8,6 +8,13 @@
 <!-- STYLESHEETS -->
 <link rel="stylesheet" href="css/styles.css" type="text/css">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- FONT AWESOME -->
+<script src="https://kit.fontawesome.com/e0e60bd5c2.js" crossorigin="anonymous"></script>
+
 </head>
 
 
@@ -21,16 +28,49 @@
 <main>
     <h1>Guessing Game</h1>
     <h2>Skills Demonstrated</h2>
-    <ul>
-        <li>Generate a random number using JavaScript.</li>
-        <li>Round numbers using the Math JavaScript class.</li>
-        <li>Write JavaScript code that listens and reacts to user click events.</li>
-        <li>Use switch statements to implement conditional logic.</li>
-        <li>Use if... else statements to make decisions.</li>
-        <li>Create DOM elements using JavaScript.</li>
-        <li>Set attribute values of DOM elements using JavaScript.</li>
-        <li>Append child elements to other DOM elements using JavaScript.</li>
+
+    <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fa-solid fa-dice-d20"></i></span>Generate a random number using JavaScript.</li>
+        <li><span class="fa-li"><i class="fa-solid fa-dice-d20"></i></span>Round numbers using the Math JavaScript class.</li>
+        <li><span class="fa-li"><i class="fa-solid fa-dice-d20"></i></span>Write JavaScript code that listens and reacts to user click events.</li>
+        <li><span class="fa-li"><i class="fa-solid fa-dice-d20"></i></span>Use switch statements to implement conditional logic.</li>
+        <li><span class="fa-li"><i class="fa-solid fa-dice-d20"></i></span>Use if... else statements to make decisions.</li>
+        <li><span class="fa-li"><i class="fa-solid fa-dice-d20"></i></span>Create DOM elements using JavaScript.</li>
+        <li><span class="fa-li"><i class="fa-solid fa-dice-d20"></i></span>Set attribute values of DOM elements using JavaScript.</li>
+        <li><span class="fa-li"><i class="fa-solid fa-dice-d20"></i></span>Append child elements to other DOM elements using JavaScript.</li>
     </ul>
+
+    <h2>Instructions</h2>
+    <p>In this game, you try to guess a random number between 1 and 15 in a few tries as possible. You will be awarded a ribbon for your skills. If you would like to play again, refresh the page.</p>
+    
+    <div class="a1">
+        <h3>Play</h3>
+        <div>
+            <input id="guess" type="number" placeholder="number">
+            <button onclick="evalGuess()">Guess</button>
+
+        </div>
+
+    </div> <!-- end of column -->
+
+    <div class="a2">
+        <h3>Attempts</h3>
+        <div id="attempts"></div>
+
+    </div> <!-- end of column -->
+
+    <div class="a3">
+        <h3>Feedback</h3>
+        <div id="feedback"></div>
+
+    </div> <!-- end of column -->
+
+    <div class="a4">
+        <h3>Award</h3>
+        <div id="ribbon"></div>
+
+    </div> <!-- end of column -->
+    
 
 </main>
 
